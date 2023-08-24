@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'api',
     #external
     'rest_framework',
-    'django-extensions',
+    'django_extensions',
 ]
 
 REST_FRAMEWORK = {
