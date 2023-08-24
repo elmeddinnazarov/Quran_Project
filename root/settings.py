@@ -39,11 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #internall
-    'blog',
+    'book',
     'user',
     'api',
     #external
     'rest_framework',
+    'django-extensions',
 ]
 
 REST_FRAMEWORK = {
