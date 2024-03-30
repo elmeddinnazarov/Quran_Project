@@ -1,0 +1,216 @@
+2024-03-19 14:25:37.544 +04 [5896] LOG:  starting PostgreSQL 16.2 (Postgres.app) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-03-19 14:25:37.546 +04 [5896] LOG:  listening on IPv6 address "::1", port 5432
+2024-03-19 14:25:37.546 +04 [5896] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-03-19 14:25:37.546 +04 [5896] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-03-19 14:25:37.548 +04 [5899] LOG:  database system was shut down at 2024-03-19 14:25:37 +04
+2024-03-19 14:25:37.550 +04 [5896] LOG:  database system is ready to accept connections
+2024-03-19 14:30:37.549 +04 [5897] LOG:  checkpoint starting: time
+2024-03-19 14:32:16.592 +04 [5897] LOG:  checkpoint complete: wrote 983 buffers (6.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=99.030 s, sync=0.008 s, total=99.044 s; sync files=317, longest=0.001 s, average=0.001 s; distance=4586 kB, estimate=4586 kB; lsn=0/1981118, redo lsn=0/19810E0
+2024-03-19 14:33:28.111 +04 [6257] ERROR:  syntax error at or near "clear" at character 1
+2024-03-19 14:33:28.111 +04 [6257] STATEMENT:  clear
+	;
+2024-03-19 14:34:57.735 +04 [6257] ERROR:  syntax error at or near "clear" at character 1
+2024-03-19 14:34:57.735 +04 [6257] STATEMENT:  clear
+	;
+2024-03-19 14:35:37.595 +04 [5897] LOG:  checkpoint starting: time
+2024-03-19 14:35:38.106 +04 [5897] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.507 s, sync=0.001 s, total=0.511 s; sync files=6, longest=0.001 s, average=0.001 s; distance=4 kB, estimate=4127 kB; lsn=0/19821E8, redo lsn=0/19821B0
+2024-03-19 14:40:37.068 +04 [5897] LOG:  checkpoint starting: time
+2024-03-19 14:40:52.767 +04 [5897] LOG:  checkpoint complete: wrote 156 buffers (1.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=15.679 s, sync=0.016 s, total=15.700 s; sync files=142, longest=0.001 s, average=0.001 s; distance=779 kB, estimate=3793 kB; lsn=0/1A44E10, redo lsn=0/1A44DD8
+2024-03-19 14:45:37.766 +04 [5897] LOG:  checkpoint starting: time
+2024-03-19 14:47:20.088 +04 [5897] LOG:  checkpoint complete: wrote 1013 buffers (6.2%); 1 WAL file(s) added, 0 removed, 0 recycled; write=102.277 s, sync=0.017 s, total=102.323 s; sync files=402, longest=0.001 s, average=0.001 s; distance=4794 kB, estimate=4794 kB; lsn=0/1F150C8, redo lsn=0/1EF3830
+2024-03-19 15:04:14.945 +04 [5896] LOG:  received fast shutdown request
+2024-03-19 15:04:14.946 +04 [5896] LOG:  aborting any active transactions
+2024-03-19 15:04:14.946 +04 [8560] FATAL:  terminating connection due to administrator command
+2024-03-19 15:04:14.947 +04 [8578] FATAL:  terminating connection due to administrator command
+2024-03-19 15:04:14.947 +04 [8563] FATAL:  terminating connection due to administrator command
+2024-03-19 15:04:14.949 +04 [5896] LOG:  background worker "logical replication launcher" (PID 5902) exited with exit code 1
+2024-03-19 15:04:14.952 +04 [5897] LOG:  shutting down
+2024-03-19 15:04:14.953 +04 [5897] LOG:  checkpoint starting: shutdown immediate
+2024-03-19 15:04:14.961 +04 [5897] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.001 s, total=0.009 s; sync files=2, longest=0.001 s, average=0.001 s; distance=134 kB, estimate=4328 kB; lsn=0/1F15178, redo lsn=0/1F15178
+2024-03-19 15:04:14.967 +04 [5896] LOG:  database system is shut down
+2024-03-19 15:06:11.463 +04 [9039] LOG:  starting PostgreSQL 16.2 (Postgres.app) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-03-19 15:06:11.465 +04 [9039] LOG:  listening on IPv6 address "::1", port 5432
+2024-03-19 15:06:11.465 +04 [9039] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-03-19 15:06:11.465 +04 [9039] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-03-19 15:06:11.472 +04 [9042] LOG:  database system was shut down at 2024-03-19 15:04:14 +04
+2024-03-19 15:06:11.477 +04 [9039] LOG:  database system is ready to accept connections
+2024-03-19 15:11:11.532 +04 [9040] LOG:  checkpoint starting: time
+2024-03-19 15:11:11.642 +04 [9040] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.001 s, total=0.110 s; sync files=3, longest=0.001 s, average=0.001 s; distance=6 kB, estimate=6 kB; lsn=0/1F16B90, redo lsn=0/1F16B58
+2024-03-19 15:16:11.642 +04 [9040] LOG:  checkpoint starting: time
+2024-03-19 15:16:16.112 +04 [9040] LOG:  checkpoint complete: wrote 45 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.465 s, sync=0.002 s, total=4.471 s; sync files=31, longest=0.001 s, average=0.001 s; distance=26 kB, estimate=26 kB; lsn=0/1F1D4F0, redo lsn=0/1F1D4B8
+2024-03-19 15:20:51.130 +04 [10929] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:20:51.130 +04 [10929] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:20:51.130 +04 [10929] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC
+2024-03-19 15:20:51.142 +04 [10929] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:20:51.142 +04 [10929] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:20:51.142 +04 [10929] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:20:51.143 +04 [10929] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:20:51.143 +04 [10929] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:20:51.143 +04 [10929] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:20:51.143 +04 [10929] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:20:51.143 +04 [10929] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:20:51.143 +04 [10929] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:20:55.082 +04 [10938] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:20:55.082 +04 [10938] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:20:55.082 +04 [10938] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC
+2024-03-19 15:20:55.089 +04 [10938] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:20:55.089 +04 [10938] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:20:55.089 +04 [10938] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:20:55.089 +04 [10938] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:20:55.089 +04 [10938] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:20:55.089 +04 [10938] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:20:55.090 +04 [10938] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:20:55.090 +04 [10938] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:20:55.090 +04 [10938] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:20:55.840 +04 [10940] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:20:55.840 +04 [10940] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:20:55.840 +04 [10940] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC
+2024-03-19 15:20:55.859 +04 [10940] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:20:55.859 +04 [10940] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:20:55.859 +04 [10940] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:20:55.860 +04 [10940] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:20:55.860 +04 [10940] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:20:55.860 +04 [10940] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:20:55.861 +04 [10940] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:20:55.861 +04 [10940] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:20:55.861 +04 [10940] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:21:57.361 +04 [11224] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:21:57.361 +04 [11224] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:21:57.361 +04 [11224] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC
+2024-03-19 15:21:57.371 +04 [11224] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:21:57.371 +04 [11224] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:21:57.371 +04 [11224] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:21:57.372 +04 [11224] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:21:57.372 +04 [11224] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:21:57.372 +04 [11224] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:21:57.372 +04 [11224] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:21:57.372 +04 [11224] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:21:57.372 +04 [11224] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:21:58.292 +04 [11230] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:21:58.292 +04 [11230] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:21:58.292 +04 [11230] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC
+2024-03-19 15:21:58.298 +04 [11230] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:21:58.298 +04 [11230] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:21:58.298 +04 [11230] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:21:58.299 +04 [11230] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:21:58.299 +04 [11230] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:21:58.299 +04 [11230] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:21:58.299 +04 [11230] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:21:58.299 +04 [11230] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:21:58.299 +04 [11230] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:22:01.002 +04 [11238] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:22:01.002 +04 [11238] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:22:01.002 +04 [11238] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC
+2024-03-19 15:22:01.026 +04 [11238] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:22:01.026 +04 [11238] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:22:01.026 +04 [11238] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:22:01.027 +04 [11238] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:22:01.027 +04 [11238] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:22:01.027 +04 [11238] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:22:01.028 +04 [11238] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:22:01.028 +04 [11238] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:22:01.028 +04 [11238] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:22:47.143 +04 [11293] ERROR:  column "name_arabic" of relation "book_surah" does not exist
+2024-03-19 15:22:47.143 +04 [11293] STATEMENT:  ALTER TABLE "book_surah" DROP COLUMN "name_arabic" CASCADE
+2024-03-19 15:23:04.134 +04 [11355] ERROR:  column book_author.description does not exist at character 76
+2024-03-19 15:23:04.134 +04 [11355] STATEMENT:  SELECT "book_author"."id", "book_author"."full_name", "book_author"."bio", "book_author"."description", "book_author"."language", "book_author"."image" FROM "book_author" ORDER BY "book_author"."id" DESC
+2024-03-19 15:23:04.160 +04 [11355] ERROR:  column book_author.description does not exist at character 76
+2024-03-19 15:23:04.160 +04 [11355] STATEMENT:  SELECT "book_author"."id", "book_author"."full_name", "book_author"."bio", "book_author"."description", "book_author"."language", "book_author"."image" FROM "book_author" ORDER BY "book_author"."id" DESC LIMIT 21
+2024-03-19 15:23:04.161 +04 [11355] ERROR:  column book_author.description does not exist at character 76
+2024-03-19 15:23:04.161 +04 [11355] STATEMENT:  SELECT "book_author"."id", "book_author"."full_name", "book_author"."bio", "book_author"."description", "book_author"."language", "book_author"."image" FROM "book_author" ORDER BY "book_author"."id" DESC LIMIT 21
+2024-03-19 15:23:04.161 +04 [11355] ERROR:  column book_author.description does not exist at character 76
+2024-03-19 15:23:04.161 +04 [11355] STATEMENT:  SELECT "book_author"."id", "book_author"."full_name", "book_author"."bio", "book_author"."description", "book_author"."language", "book_author"."image" FROM "book_author" ORDER BY "book_author"."id" DESC LIMIT 21
+2024-03-19 15:23:06.649 +04 [11361] ERROR:  column book_author.description does not exist at character 76
+2024-03-19 15:23:06.649 +04 [11361] STATEMENT:  SELECT "book_author"."id", "book_author"."full_name", "book_author"."bio", "book_author"."description", "book_author"."language", "book_author"."image" FROM "book_author" ORDER BY "book_author"."id" DESC
+2024-03-19 15:23:06.668 +04 [11361] ERROR:  column book_author.description does not exist at character 76
+2024-03-19 15:23:06.668 +04 [11361] STATEMENT:  SELECT "book_author"."id", "book_author"."full_name", "book_author"."bio", "book_author"."description", "book_author"."language", "book_author"."image" FROM "book_author" ORDER BY "book_author"."id" DESC LIMIT 21
+2024-03-19 15:23:06.668 +04 [11361] ERROR:  column book_author.description does not exist at character 76
+2024-03-19 15:23:06.668 +04 [11361] STATEMENT:  SELECT "book_author"."id", "book_author"."full_name", "book_author"."bio", "book_author"."description", "book_author"."language", "book_author"."image" FROM "book_author" ORDER BY "book_author"."id" DESC LIMIT 21
+2024-03-19 15:23:06.669 +04 [11361] ERROR:  column book_author.description does not exist at character 76
+2024-03-19 15:23:06.669 +04 [11361] STATEMENT:  SELECT "book_author"."id", "book_author"."full_name", "book_author"."bio", "book_author"."description", "book_author"."language", "book_author"."image" FROM "book_author" ORDER BY "book_author"."id" DESC LIMIT 21
+2024-03-19 15:23:41.697 +04 [11453] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:23:41.697 +04 [11453] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:23:41.697 +04 [11453] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC
+2024-03-19 15:23:41.706 +04 [11453] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:23:41.706 +04 [11453] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:23:41.706 +04 [11453] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:23:41.707 +04 [11453] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:23:41.707 +04 [11453] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:23:41.707 +04 [11453] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:23:41.707 +04 [11453] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:23:41.707 +04 [11453] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:23:41.707 +04 [11453] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:23:42.507 +04 [11461] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:23:42.507 +04 [11461] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:23:42.507 +04 [11461] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC
+2024-03-19 15:23:42.531 +04 [11461] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:23:42.531 +04 [11461] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:23:42.531 +04 [11461] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:23:42.532 +04 [11461] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:23:42.532 +04 [11461] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:23:42.532 +04 [11461] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:23:42.533 +04 [11461] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:23:42.533 +04 [11461] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:23:42.533 +04 [11461] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:23:43.085 +04 [11463] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:23:43.085 +04 [11463] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:23:43.085 +04 [11463] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC
+2024-03-19 15:23:43.100 +04 [11463] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:23:43.100 +04 [11463] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:23:43.100 +04 [11463] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:23:43.101 +04 [11463] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:23:43.101 +04 [11463] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:23:43.101 +04 [11463] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:23:43.102 +04 [11463] ERROR:  column book_surah.name_en does not exist at character 48
+2024-03-19 15:23:43.102 +04 [11463] HINT:  Perhaps you meant to reference the column "book_surah.name" or the column "book_surah.name_means".
+2024-03-19 15:23:43.102 +04 [11463] STATEMENT:  SELECT "book_surah"."id", "book_surah"."name", "book_surah"."name_en", "book_surah"."name_arabic", "book_surah"."name_means", "book_surah"."slug", "book_surah"."description", "book_surah"."number", "book_surah"."verse_count", "book_surah"."page_number", "book_surah"."verse_id", "book_surah"."audio_id" FROM "book_surah" ORDER BY "book_surah"."id" DESC LIMIT 21
+2024-03-19 15:26:11.103 +04 [9040] LOG:  checkpoint starting: time
+2024-03-19 15:26:12.532 +04 [9040] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.425 s, sync=0.002 s, total=1.430 s; sync files=15, longest=0.001 s, average=0.001 s; distance=2 kB, estimate=23 kB; lsn=0/1F1DFE8, redo lsn=0/1F1DFB0
+2024-03-19 15:40:11.064 +04 [11976] ERROR:  relation "quran_app_db" does not exist at character 15
+2024-03-19 15:40:11.064 +04 [11976] STATEMENT:  SELECT * FROM quran_app_db;
+2024-03-19 15:40:15.583 +04 [11976] ERROR:  relation "quran_app_db" does not exist at character 15
+2024-03-19 15:40:15.583 +04 [11976] STATEMENT:  SELECT * FROM quran_app_db
+	;
+2024-03-19 15:54:19.485 +04 [11976] ERROR:  cannot drop the currently open database
+2024-03-19 15:54:19.485 +04 [11976] STATEMENT:  DROP DATABASE quran_app_db ;
+2024-03-19 15:54:33.771 +04 [11976] ERROR:  syntax error at or near "from" at character 1
+2024-03-19 15:54:33.771 +04 [11976] STATEMENT:  from django.contrib import admin
+	from . import models
+	# Register your models here.
+	admin.site.register(models.Surah)
+	admin.site.register(models.Verse)
+	admin.site.register(models.Translation)
+	admin.site.register(models.Author)
+	admin.site.register(models.Footnote)
+	admin.site.register(models.Audio)
+	;
+2024-03-19 15:54:55.601 +04 [12434] ERROR:  database "quran_app_db" is being accessed by other users
+2024-03-19 15:54:55.601 +04 [12434] DETAIL:  There is 1 other session using the database.
+2024-03-19 15:54:55.601 +04 [12434] STATEMENT:  DROP DATABASE quran_app_db ;
+2024-03-19 15:55:18.190 +04 [12720] ERROR:  database "quran_app_db" is being accessed by other users
+2024-03-19 15:55:18.190 +04 [12720] DETAIL:  There is 1 other session using the database.
+2024-03-19 15:55:18.190 +04 [12720] STATEMENT:  DROP DATABASE quran_app_db ;
+2024-03-19 15:56:46.317 +04 [13088] ERROR:  syntax error at or near "elmeddinnazarov" at character 1
+2024-03-19 15:56:46.317 +04 [13088] STATEMENT:  elmeddinnazarov=# DROP DATABASE quran_app_db ;
+2024-03-19 15:56:51.013 +04 [13088] ERROR:  syntax error at or near "ERROR" at character 1
+2024-03-19 15:56:51.013 +04 [13088] STATEMENT:  ERROR:  database "quran_app_db" is being accessed by other users
+	DETAIL:  There is 1 other session using the
+	;
+2024-03-19 15:57:08.055 +04 [13088] ERROR:  database "quran_app_db" is being accessed by other users
+2024-03-19 15:57:08.055 +04 [13088] DETAIL:  There is 1 other session using the database.
+2024-03-19 15:57:08.055 +04 [13088] STATEMENT:  drop database quran_app_db ;
+2024-03-19 15:57:48.920 +04 [13088] ERROR:  column "pid" does not exist at character 29
+2024-03-19 15:57:48.920 +04 [13088] STATEMENT:  SELECT pg_terminate_backend(pid);
+2024-03-19 15:57:59.761 +04 [11425] FATAL:  terminating connection due to administrator command
+2024-03-19 15:58:04.713 +04 [9040] LOG:  checkpoint starting: immediate force wait
+2024-03-19 15:58:04.716 +04 [9040] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.003 s; sync files=2, longest=0.001 s, average=0.001 s; distance=7 kB, estimate=22 kB; lsn=0/1F1FC30, redo lsn=0/1F1FBF8
+2024-03-19 16:03:04.719 +04 [9040] LOG:  checkpoint starting: time
+2024-03-19 16:04:39.804 +04 [9040] LOG:  checkpoint complete: wrote 942 buffers (5.7%); 0 WAL file(s) added, 0 removed, 1 recycled; write=95.072 s, sync=0.010 s, total=95.086 s; sync files=303, longest=0.001 s, average=0.001 s; distance=4333 kB, estimate=4333 kB; lsn=0/235B370, redo lsn=0/235B338
+2024-03-21 01:37:55.526 +04 [9039] LOG:  received fast shutdown request
+2024-03-21 01:37:55.527 +04 [9039] LOG:  aborting any active transactions
+2024-03-21 01:37:55.528 +04 [18812] FATAL:  terminating connection due to administrator command
+2024-03-21 01:37:55.529 +04 [9039] LOG:  background worker "logical replication launcher" (PID 9045) exited with exit code 1
+2024-03-21 01:37:55.531 +04 [9040] LOG:  shutting down
+2024-03-21 01:37:55.531 +04 [9040] LOG:  checkpoint starting: shutdown immediate
+2024-03-21 01:37:55.536 +04 [9040] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.006 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=3900 kB; lsn=0/235B420, redo lsn=0/235B420
+2024-03-21 01:37:55.545 +04 [9039] LOG:  database system is shut down

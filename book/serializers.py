@@ -1,5 +1,22 @@
 from rest_framework import serializers
-from .models import Surah, Author, Verse, Audio, Translation, Footnote
+from .models import Surah, Author, Verse, Audio, Translation, Footnote, VerseZero, Word
+
+class WordSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Word
+        fields = '__all__'
+
+class VerseZeroSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = VerseZero
+        fields = '__all__'
+
+class VerseSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Verse
+        fields = '__all__'
+
+
 
 class SurahSerializer(serializers.ModelSerializer):
     class Meta:
@@ -11,10 +28,6 @@ class AuthorSerializer(serializers.ModelSerializer):
         model = Author
         fields = '__all__'
 
-class VerseSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Verse
-        fields = '__all__'
 
 class AudioSerializer(serializers.ModelSerializer):
     class Meta:
@@ -30,3 +43,6 @@ class FootnoteSerializer(serializers.ModelSerializer):
     class Meta:
         model = Footnote
         fields = '__all__'
+
+
+

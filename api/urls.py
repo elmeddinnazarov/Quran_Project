@@ -13,7 +13,7 @@ from book.views import (
 urlpatterns = [
     # Burada `book` app'ine ait views'ları doğrudan kullanıyoruz
     path('surahs/', SurahListCreateAPIView.as_view(), name='surah-list-create'),
-    path('surahs/<int:pk>/', SurahDetailAPIView.as_view(), name='surah-detail'),
+    path('surah/<int:pk>/', SurahDetailAPIView.as_view(), name='surah-detail'),
     path('authors/', AuthorListCreateAPIView.as_view(), name='author-list-create'),
     path('authors/<int:pk>/', AuthorDetailAPIView.as_view(), name='author-detail'),
     path('verses/', VerseListCreateAPIView.as_view(), name='verse-list-create'),
